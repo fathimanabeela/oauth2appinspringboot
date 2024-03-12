@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SuppressWarnings("checkstyle:JavadocStyle")
 @NoArgsConstructor
 @RestController
-public class HomeController {
+public class HomeController{
 
     /**
      * get mapping for root url.
