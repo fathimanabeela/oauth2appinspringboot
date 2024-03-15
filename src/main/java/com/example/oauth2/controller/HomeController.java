@@ -18,8 +18,7 @@ public class HomeController{
      * @return home string
      */
     @GetMapping
-    public final String home() 
-    {
+    public final String home() {
         return "home";
     }
 
@@ -29,7 +28,6 @@ public class HomeController{
      */
     @GetMapping("/secured")
     public final String secured() {
-        int x;
         return "Secured Page";
     }
 
